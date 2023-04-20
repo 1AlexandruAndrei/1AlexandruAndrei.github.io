@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+/* Main section styles */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+
+body {
+    background: url("bac.jpg");
+    background-size: cover;
+    filter: saturate(0.5);
+    color: lightgreen;
+    font-size: 17px;
+}
+
+.button {
+
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2196f3;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: turquoise;
+    color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+
+    flex: 1 0 33%;
+    padding: 5px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+
+img {
+    display: block;
+}
