@@ -1,3 +1,10 @@
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+
 header {
   background-color: #eee;
   display: flex;

@@ -43,11 +43,6 @@ nav a:hover {
     align-items: center;
 }
 
-.image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .text {
     font-size: 18px;

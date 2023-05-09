@@ -4,64 +4,29 @@
 <head>
     <title>ACASĂ</title>
     <link rel="stylesheet" type="text/css" href="stylehome.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+
     <header>
-        <label class="dropdown">
-
-            <div class="dd-button">
-                Meniu
+        <div class="dropdown">
+            <button class="dropbtn">MENIU</button>
+            <div class="dropdown-content">
+                <a href="proiectecurente.html">PROIECTE</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">CONTACTEAZĂ-NE</a>
+                <a href="aboutus.html">DESPRE NOI</a>
             </div>
-            
+        </div>
 
-            <input type="checkbox" class="dd-input" id="test">
-
-            <ul class="dd-menu">
-                <li>
-                    <a href="proiectecurente.html">PROIECTE</a>
-                </li>
-                <li>
-                    <a href="faq.html">FAQ</a>
-                </li>
-                <li>
-                    <a href="aboutus.html">DESPRE NOI</a>
-                </li>
-                <li>
-                    <a href="contact.html">CONTACTEAZĂ-NE</a>
-                </li>
-
-            </ul>
-
-        </label>
-        <h1>GREY PROPERTIES</h1>
-        
-        
-
+        <h1 class="shiny">GREY PROPERTIES</h1>
 
     </header>
-    <!--
- <header>
-        <nav>
-            <ul>
-                <li><a href="proiectecurente.html">PROIECTE</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="aboutus.html">DESPRE NOI</a></li>
-                <li><a href="contact.html">CONTACTEAZĂ-NE</a></li>
-            </ul>
-        </nav>
-        <h1>GREY Properties</h1>
-        <img src="GREYlogo.png" alt="GREY Logo">
-    </header>
-   
-    -->
-    <main>
-       
-        <a href="https://web.whatsapp.com/" class="btn">CONTACTEAZA UN AGENT DE VANZARI</a>
-        <img src="GREYlogo.png" class="rotate">
-    </main>
 
     <div class="container">
+
         <div class="column">
             <h2>Clădiri rezidențiale</h2>
             <p>Dezvoltăm în locații premium, iar calitatea, designul și sustenabilitatea reprezintă obiectivele noastre.
@@ -71,7 +36,7 @@
             <br>
             <div class="stat">
                 <p>Nr. proiecte finalizate: 7</p>
-                <p>Valoare neta: $100,000,000</p>
+                <p>Valoare netă: $100,000,000</p>
             </div>
 
         </div>
@@ -84,10 +49,11 @@
             <br>
             <div class="stat">
                 <p>Nr. proiecte finalizate: 2</p>
-                <p>Valoare neta: $60,000,000</p>
+                <p class="idd">Valoare netă: $100,000,000</p>
             </div>
 
         </div>
+
         <div class="column">
             <h2>Spații comerciale</h2>
             <p>În februarie 2023 am obținut autorizația de a construi cel mai mare spațiu comercial din București, GREY
@@ -96,11 +62,15 @@
             <br>
             <div class="stat">
                 <p>Nr. proiecte planificate: 2</p>
-                <p>Valoarea investitiei: $90,000,000</p>
+                <p>Valoarea investiției: $90,000,000</p>
             </div>
         </div>
     </div>
-
+    <a href="contact.html">
+        <h1>CLICK PENTRU A OBȚINE UN DISCOUNT DE $100</h1>
+    </a>
+    <h3>Timp rămas: <span id="timer">24:00:00</span></h3>
+    <script src="home.js"></script>
 
 </body>
 

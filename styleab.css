@@ -1,3 +1,10 @@
+@media screen and (max-width: 768px) {
+    p {
+      font-size: 14px;
+    }
+  }
+  
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -99,7 +106,7 @@ footer ul {
 footer li {
     margin-left: 10px;
     padding-right: 15px;
-    padding-left: 1 px;
+    padding-left: 1px;
 }
 
 footer a {
@@ -109,3 +116,4 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
